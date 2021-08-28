@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 25 40 25 40px;
+}
+
+.navbar img{
+    width: 150px;
+}
+
+.navbar button{
+    padding: 10px;
+    border-radius: 5px;
+    background: #e50914;
+    border: none;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 0 0 20px black;
+    width: 85%;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.text h1{
+    font-family: 'Raleway';
+    font-size: 50px;
+    color: white;
+    
+}
+
+.text h2{
+    font-family: 'Raleway';
+    color: white;
+    
+}
+
+.text h3{
+    font-family: 'Raleway';
+    color: white;
+    
+}
+
+.sh{
+    margin-top: 20px;
+}
+
+.sh input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    width: 100%;
+    max-width: 250px;
+}
+
+.sh button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #e50914;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+hr{
+    height: 10px;
+    background: #1d1d1d;
+    border: none;
+}
+
+.sec1{
+    padding: 10 30 10 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cls h1{
+    color: white;
+    font-family: 'Raleway';
+    font-size: 50px;
+    max-width: 500px;
+}
+
+.cls h3{
+    color: white;
+    font-family: 'Raleway';
+    max-width: 400px;
+    font-weight: bold;
+}
+
+.cls img{
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.sec2{
+    padding: 10 30 10 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.sec3{
+    padding: 50px;
+    background-color: black;
+}
+
+.cls1{
+    text-align: center;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.cls1 h1{
+    font-size: 50px;
+}
+
+.faq{
+    padding: 20px;
+    background-color: black;
+}
+
+.faq h1{
+    font-family: 'Raleway';
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.pn{
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.accordion {
+    margin-top: 10px;
+    background: #2d2d2d;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    width: 100%;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #2d2d2d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid black;
+}
+
+.panel p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.set{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.set h3{
+    color: white;
+    font-family: 'Raleway';
+}
+
+.set input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.set button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #e50914;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    width: 150px;
+}
+
+.contact{
+    padding: 20px;
+    background-color: black;
+}
+
+.contact h3{
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cnt{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sect{
+    width: 100%;
+    max-width: 130px;
+    height: auto;
+    padding: 5px;
+}
+
+.sect a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway';
+}
+
+.contact h4{
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .text h1{
+        font-size: 35px;
+    }
+    
+    .text button{
+        display: block;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .text input{
+        border-radius: 5px;
+    }
+    
+    .sec1{
+        text-align: center;
+    }
+    
+    .sec1 h1{
+        font-size: 40px;
+    }
+    
+    .sec2{
+        text-align: center;
+    }
+    
+    .sec2 h1{
+        font-size: 40px;
+    }
+    
+    .sec3 h1{
+        font-size: 40px;
+    }
+    
+    .faq h1{
+        font-size: 40px;
+    }
+    
+    .set input{
+        border-radius: 5px;
+    }
+    
+    .set button{
+        margin-top: 10px;
+    }
+}
