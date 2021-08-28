@@ -7,7 +7,7 @@ body::-webkit-scrollbar-track {
   background: black;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: white; 
+  background: rgba(255,255,255,0.336); 
   border-radius: 20px; 
 }
 
