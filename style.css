@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap');
 
+body::-webkit-scrollbar {
+  width: 10px;  
+}
+body::-webkit-scrollbar-track {
+  background: black;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: white; 
+  border-radius: 20px; 
+}
+
 body{
     background-color: black;
 }
