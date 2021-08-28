@@ -46,6 +46,13 @@ body{
     font-family: 'Dosis';
     font-size: 15px;
     font-weight: bold;
+    transition: .4s;
+}
+
+.navbar button:hover{
+    background-color: darkred;
+    cursor: pointer;
+    transition: .4s;
 }
 
 .text{
@@ -104,6 +111,13 @@ body{
     color: white;
     font-family: 'Dosis';
     font-weight: bold;
+    transition: .4s;
+}
+
+.sh button:hover{
+    background-color: darkred;
+    cursor: pointer;
+    transition: .4s;
 }
 
 hr{
@@ -270,6 +284,13 @@ hr{
     font-family: 'Dosis';
     font-weight: bold;
     width: 150px;
+    transition: .4s;
+}
+
+.set button:hover{
+    background-color: darkred;
+    cursor: pointer;
+    transition: .4s;
 }
 
 .contact{
